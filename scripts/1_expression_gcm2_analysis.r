@@ -4,7 +4,7 @@
 # tsne plot for ptg expression along with other tissues from GTEX
 tsne.tissue.expression.plot<-function(){
  library(Rtsne)
- load("data/fig1.data.RData")
+ load("data/f1.data.RData")
  # a: data from GTEx_v7_Annotations_SampleAttributesDS.txt, containing SAMPID and SMTS
  types=unique(a$SMTSD);
  length(types) # number of tissue types: 54
