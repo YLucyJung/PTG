@@ -29,7 +29,7 @@ tf.network.plot<-function(){
   # For those genes, we made connections between genes and constructed network with nodes and links.
   # nodes and links for the tf network
 
-  load("data/fig3.data.RData")
+  load("data/f3.data.RData")
   head(nodes)
   head(links)
   nrow(nodes); length(unique(nodes$id))
