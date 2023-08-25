@@ -3,7 +3,7 @@
 
 
 enrichment.gwas.snp.chromatin.state<-function(){
- load("data/fig5.data.RData")
+ load("data/f5.data.RData")
  
  #d:# of GWAS SNP in each regulatory regions such as chromatin states, DHS, super-enhancers, GCM2 peaks 
  
