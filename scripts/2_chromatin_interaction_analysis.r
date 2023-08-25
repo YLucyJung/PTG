@@ -2,7 +2,7 @@
 # chromatin interaction plot for CASR in parathyroid and other tissues
 3d.interaction.plot<-function(){
 
-  load("data/fig2.data.RData")
+  load("data/f2.data.RData")
   # t: loops overlapping with promoters with a 5kb margin from hi-c parathyroid
   id=which(t$V11=="CASR"); # interactions with CARS promoter in PTG
   t[id,]
