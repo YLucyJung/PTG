@@ -16,7 +16,7 @@ ptg.gene.chromatin.expression.state<-function(){
 
 #make matrix for the gene
 #each bin for 200bp
-  load("data/fig4.data.RData")
+  load("data/f4.data.RData")
 chromatin.matrix<-function(chr=chr,s=s,e=e,gene=gene,cols=cols,d=d,t=t){
   #heatmap for parathyroid
   #t: 18 chromatin states for parathyroid
@@ -118,7 +118,7 @@ box();
 par(mar=c(0.3,4,0.3,4));
   
 #panel for PTG
-load("data/fig4.data.RData")
+load("data/f4.data.RData")
 mat.com=chromatin.matrix(chr=chr,s=s,e=e,gene=gene,cols=cols,d=d,t=t)
 image((as.matrix(mat.com[1,])),col=cols,xaxs="i",yaxs="i",axes=F,useRaster=T);box()
 mtext(side=4,text="Parathyroid",line=0.7)
