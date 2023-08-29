@@ -13,4 +13,7 @@ Due to the data size, datasets required for `1_expression_gcm2_analysis.r` and `
 `3_tf_network_analysis.r` takes input of motif prediction at GCM2, a key TF in PTG, and DHS sites and compared the frequencies of GATA3 and MAFB at proximal TSSs and distal TSSs of GCM2 binding sites, and visualizes TF networks in PTG. `f3.data.RData` contains the TF network information (edges and nodes). From the regulatory regions of GCM2 overlapping with DHSs, TF motifs were searched. Among the TFs detected, TFs that were not expressed in parathyroids were filtered out.  
 
 ## PTG chromatin states compared with those in other tissues
-'4_ptg_genes_chromatin_expression.r` 
+'4_ptg_genes_chromatin_expression.r` takes input of chromatin state annotations along with those from other tissues from Roadmap Epigenomics and compare them. Chromatin state annotation was done using HMM models based on H3K4me3, H3K4me1, H3K27ac, H3K27me3, H3K36me3 and H3K9me3 using 
+
+## GWAS SNPs in PTG regulatory regions
+`5_gwas.analysis.r` takes input of SNPs in GWAS SNPs associated with phenotypes related to PTG functions such as PTH concentration and calculates significance levels by Fisher's exact test. PTG regulatory regions include PTG enhancers, super-enhancers and DHSs.  
