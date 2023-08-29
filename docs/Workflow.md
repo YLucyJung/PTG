@@ -8,3 +8,5 @@ Due to the data size, datasets required for `1_expression_gcm2_analysis.r` and `
 
 ## PTG chromatin interactions compared to those in other tissues
 `2_chromatin_interaction_analysis.r` takes input of chromatin interactions of Hi-C data from 2 PTG individuals and compared them with those from other tissues (pcHi-C) in [Jung et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6778519/). Significant interactions were detected using [Juicer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5846465/) HiCCUPS with FDR = 0.1 and 5 kb resolution for the merged data from biological replicates.
+
+## PTG transcription factor (TF) network
