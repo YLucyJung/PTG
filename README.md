@@ -7,7 +7,7 @@ In this studay, we investigated the chromatin landscape in human parathyroid. Th
 Related publication: Epigenetic Profiling Reveals Key Genes and Cis-Regulatory Networks Specific to Human Parathyroids, [Jung et al 2023].
 
 ## Contact
-The scripts and PTG pages were made and maintained by [Y. Lucy Jung](lucy.youngsook.jung@gmail.com)
+If you have questions and requests, please contact lucy.youngsook.jung@gmail.com.
 
 
 
